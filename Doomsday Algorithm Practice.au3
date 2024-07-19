@@ -2,7 +2,6 @@
 
  AutoIt Version: 3.3.16.1
  Author: Kenny Allen Christopher Abrahams
-
  Script Function: Practice the doomsday algorithm
 
 #ce ----------------------------------------------------------------------------
