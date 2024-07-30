@@ -1,17 +1,36 @@
-# Doomsday-Algorithm-Practice
-This project is a graphical user interface (GUI) application created using AutoIt for practicing the Doomsday algorithm, which is used to calculate the day of the week for any given date. The application generates random dates, and the user is required to determine the correct day of the week
+# Doomsday Algorithm Practice
 
-Features
-Random Date Generation: The application generates a random date within a specified range (1800 to 2100) and displays it
-Day of the Week Buttons: Users can select a button corresponding to a day of the week (Sunday to Saturday) to guess the correct day
-Validation: The application checks if the selected day matches the calculated day of the week for the generated date
-Feedback: The selected button turns green if the user’s guess is correct, and red if it is incorrect
-Date Check: Users can request the application to display the correct day of the week for the generated date
-Random Date Regeneration: Users can generate a new random date by clicking a button
+This AutoIt script helps you practice the Doomsday Algorithm by generating random dates and allowing you to guess the day of the week for those dates. The script provides a graphical user interface (GUI) where you can select a day of the week and check if your guess is correct.
 
-This code can be compiled and run using AutoIt to create an interactive tool for practicing the Doomsday algorithm.
+![Doomsday Algorithm Practice Demo](https://github.com/user-attachments/assets/a9f3522b-36ce-4fe5-aace-e24ec5705d77)
 
-Installation: 
-Install AutoIt
-Save the code in a .au3 file
-Run the script using AutoIt
+## Features
+
+- **Random Date Generation**: Generates random dates for practice.
+- **Day of the Week Buttons**: Provides buttons for each day of the week to make your guess.
+- **Validation and Feedback**: Validates your guess and provides immediate feedback by changing the button color to green for correct guesses and red for incorrect ones.
+- **Check Date Button**: Allows you to manually check the day of the week for the generated date.
+- **Continuous Practice**: Automatically generates a new date after each guess or check.
+
+## Requirements
+
+- Windows Operating System
+- [AutoIt](https://www.autoitscript.com/site/autoit/downloads/) installed
+
+## Installation
+
+  **Download and Install AutoIt**:
+    - Go to the [AutoIt download page](https://www.autoitscript.com/site/autoit/downloads/) and download the installer
+    - Follow the installation instructions on the AutoIt website
+
+## Usage
+
+  **Run the Script**:
+    - Press `F5` in the AutoIt editor to run the script or compile it to an executable and run it
+    - The script will generate a random date and display it at the top of the window
+    - Guess the day of the week by clicking one of the day buttons (Sunday to Saturday)
+    - The button will turn green if your guess is correct or red if it is incorrect
+    - Click the `?` button to manually check the day of the week for the displayed date
+    - Click the `Q` button to generate a new random date
+    - Press the `Esc` key to exit
+
